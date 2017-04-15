@@ -58,3 +58,23 @@ print result
     "ready-for-terminal":false
   }
 ```
+
+##### 3) Consultar un pago (fork Version darrieta)
+Con esta opcion puedes consultar un pago, compo para poder automatizar procesos.
+
+```python
+from khipu import Khipu
+api = Khipu('receiver_id', 'secret_key')
+data = {
+    'payment_id': 'el id de pago',
+}
+result = api.service('PaymentStatus', **data)
+print result
+>> {
+    "status":"done",
+    "detail":"normal",
+  }
+```
+
+
+

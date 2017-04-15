@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 exec(open("khipu/version.py").read())
 
 setup(
-    name='khipu',
+    name='khipu2',
     version=__version__,
     description='A client for the khipu API.',
     author='Jonatan Rodriguez',
