@@ -16,7 +16,7 @@ class Khipu(object):
         'CreateEmail': True,
         'CreatePaymentPage': True,
         'CreatePaymentURL': True,
-        'VerifyPaymentNotification': False,
+        'VerifyPaymentNotification': True,
         'ReceiverStatus': True,
         'SetBillExpired': True,
         'SetPaidByReceiver': True,
